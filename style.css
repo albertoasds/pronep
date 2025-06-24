@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+#top {
+background: rgb(0, 49, 67);
+}
+
+#bg-video {
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  opacity: 0.5;
+  }
+
+#logo-video {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
